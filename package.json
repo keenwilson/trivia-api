@@ -1,0 +1,33 @@
+{
+  "name": "trivia-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nm": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keenwilson/trivia-api.git"
+  },
+  "keywords": [
+    "Server-side",
+    "APIs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keenwilson/trivia-api/issues"
+  },
+  "homepage": "https://github.com/keenwilson/trivia-api#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
